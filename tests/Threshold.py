@@ -2,7 +2,7 @@ import tensorflow as tf
 #import model1
 import model2
 #import TensorFI as ti
-import model
+#import model
 
 def Threshold(act_max):
     #Algorithm 1: Threshold Fine-Tunning
