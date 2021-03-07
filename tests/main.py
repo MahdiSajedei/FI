@@ -3,7 +3,7 @@ import os
 import sys
 import Threshold as T
 #import model1
-import model
+#import model
 import model2
 #import numpy as np
 #l1=6.478024691358024
