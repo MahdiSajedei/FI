@@ -134,8 +134,8 @@ def AlexNet8(T):
     #model.fit(x_train, y_train,batch_size=128,epochs=50,verbose=1,validation_data=(x_test, y_test))
 
     #save and load
-    #model.save('./AlexNet')
-    model = keras.models.load_model('./AlexNet')
+    #model.save('./AlexNet.h5')
+    model = keras.models.load_model('./AlexNet.h5')
 
     #inject fault
     #weights = [np.random.rand(*w.shape) for w in model.layers[0].get_weights()]   #fault type=Random
