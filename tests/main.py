@@ -12,7 +12,7 @@ import model2
 #l4=7.418353909465021
 def main():
 
-    enable = 0
+    enable = 1
     if enable == 1:
        act_max = 10
        #find best Threshold
